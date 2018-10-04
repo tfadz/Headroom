@@ -1,0 +1,21 @@
+header {
+  background: gold;
+  padding: 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
